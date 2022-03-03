@@ -3,13 +3,7 @@ email = input("email please: ")
 password = input("password: ")
 
 def login(email,password):
-    f = open("users.txt","r")
-    for ligne in f:
-        user = ligne.split()
-        if user[1]==email and user[2]==password:
-            return True
-    f.close()
-    return False
+    pass
         
 
 if login(email,password):
